@@ -894,4 +894,6 @@ if __name__ == "__main__":
     if BOT_TOKEN == "YOUR_BOT_TOKEN_HERE":
         print("⚠️  Set your BOT_TOKEN before running!")
     else:
-        bot.run(BOT_TOKEN)
+    pass
+
+bot.run(BOT_TOKEN)
