@@ -24,7 +24,7 @@ import os
 import time
 
 # ─── CONFIG ───────────────────────────────────────────────────────────────────
-BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"
+BOT_TOKEN = os.getenv("DISCORD_TOKEN")
 PREFIX = "!"
 MOD_LOG_CHANNEL_ID = 0       # Replace with your mod-log channel ID
 OWNER_ID = 0                 # Replace with your Discord user ID
